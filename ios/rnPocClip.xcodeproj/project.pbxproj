@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		74F9DF4F4629B57354F703D8 /* libPods-rnPocClip-rnPOcAppClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD7DFE6ED144F970F5F85C3 /* libPods-rnPocClip-rnPOcAppClip.a */; };
 		7699B88040F8A987B510C191 /* libPods-rnPocClip-rnPocClipTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rnPocClip-rnPocClipTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FD560F3B281C145F00539A38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD560F3A281C145F00539A38 /* AppDelegate.m */; };
@@ -59,6 +60,7 @@
 		00E356EE1AD99517003FC87E /* rnPocClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnPocClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* rnPocClipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnPocClipTests.m; sourceTree = "<group>"; };
+		0CD7DFE6ED144F970F5F85C3 /* libPods-rnPocClip-rnPOcAppClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnPocClip-rnPOcAppClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* rnPocClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnPocClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnPocClip/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = rnPocClip/AppDelegate.mm; sourceTree = "<group>"; };
@@ -66,12 +68,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnPocClip/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnPocClip/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-rnPocClip-rnPocClipTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnPocClip-rnPocClipTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDEF2E4C8824DE828B4A527 /* Pods-rnPocClip-rnPOcAppClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnPocClip-rnPOcAppClip.debug.xcconfig"; path = "Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-rnPocClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnPocClip.debug.xcconfig"; path = "Target Support Files/Pods-rnPocClip/Pods-rnPocClip.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-rnPocClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnPocClip.release.xcconfig"; path = "Target Support Files/Pods-rnPocClip/Pods-rnPocClip.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-rnPocClip-rnPocClipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnPocClip-rnPocClipTests.debug.xcconfig"; path = "Target Support Files/Pods-rnPocClip-rnPocClipTests/Pods-rnPocClip-rnPocClipTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-rnPocClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnPocClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnPocClip/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-rnPocClip-rnPocClipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnPocClip-rnPocClipTests.release.xcconfig"; path = "Target Support Files/Pods-rnPocClip-rnPocClipTests/Pods-rnPocClip-rnPocClipTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0B814A2A9E1523EAA9B1DC1 /* Pods-rnPocClip-rnPOcAppClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnPocClip-rnPOcAppClip.release.xcconfig"; path = "Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FD560F37281C145F00539A38 /* rnPOcAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnPOcAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD560F39281C145F00539A38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F9DF4F4629B57354F703D8 /* libPods-rnPocClip-rnPOcAppClip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +156,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-rnPocClip.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-rnPocClip-rnPocClipTests.a */,
+				0CD7DFE6ED144F970F5F85C3 /* libPods-rnPocClip-rnPOcAppClip.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,6 +201,8 @@
 				5709B34CF0A7D63546082F79 /* Pods-rnPocClip.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-rnPocClip-rnPocClipTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-rnPocClip-rnPocClipTests.release.xcconfig */,
+				2FDEF2E4C8824DE828B4A527 /* Pods-rnPocClip-rnPOcAppClip.debug.xcconfig */,
+				A0B814A2A9E1523EAA9B1DC1 /* Pods-rnPocClip-rnPOcAppClip.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -270,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD560F54281C146100539A38 /* Build configuration list for PBXNativeTarget "rnPOcAppClip" */;
 			buildPhases = (
+				47A88EA7D504808FE7422996 /* [CP] Check Pods Manifest.lock */,
 				FD560F33281C145F00539A38 /* Sources */,
 				FD560F34281C145F00539A38 /* Frameworks */,
 				FD560F35281C145F00539A38 /* Resources */,
+				9BC5061C20107B24F4DDF441 /* [CP] Embed Pods Frameworks */,
+				7FE23ECFD279825521A9564F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -382,6 +393,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnPocClip/Pods-rnPocClip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A88EA7D504808FE7422996 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rnPocClip-rnPOcAppClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE23ECFD279825521A9564F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC5061C20107B24F4DDF441 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnPocClip-rnPOcAppClip/Pods-rnPocClip-rnPOcAppClip-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -802,6 +869,7 @@
 		};
 		FD560F52281C146100539A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDEF2E4C8824DE828B4A527 /* Pods-rnPocClip-rnPOcAppClip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -841,6 +909,7 @@
 		};
 		FD560F53281C146100539A38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B814A2A9E1523EAA9B1DC1 /* Pods-rnPocClip-rnPOcAppClip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
