@@ -14,6 +14,14 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-rnPocClip-rnPocClipTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rnPocClip-rnPocClipTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FD560F3B281C145F00539A38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD560F3A281C145F00539A38 /* AppDelegate.m */; };
+		FD560F3E281C145F00539A38 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD560F3D281C145F00539A38 /* SceneDelegate.m */; };
+		FD560F41281C145F00539A38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD560F40281C145F00539A38 /* ViewController.m */; };
+		FD560F44281C146000539A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD560F42281C146000539A38 /* Main.storyboard */; };
+		FD560F46281C146100539A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD560F45281C146100539A38 /* Assets.xcassets */; };
+		FD560F49281C146100539A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD560F47281C146100539A38 /* LaunchScreen.storyboard */; };
+		FD560F4C281C146100539A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD560F4B281C146100539A38 /* main.m */; };
+		FD560F50281C146100539A38 /* rnPOcAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = FD560F37281C145F00539A38 /* rnPOcAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +32,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = rnPocClip;
 		};
+		FD560F4E281C146100539A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD560F36281C145F00539A38;
+			remoteInfo = rnPOcAppClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD560F51281C146100539A38 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				FD560F50281C146100539A38 /* rnPOcAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* rnPocClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnPocClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +73,19 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnPocClip/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-rnPocClip-rnPocClipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnPocClip-rnPocClipTests.release.xcconfig"; path = "Target Support Files/Pods-rnPocClip-rnPocClipTests/Pods-rnPocClip-rnPocClipTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FD560F37281C145F00539A38 /* rnPOcAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnPOcAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD560F39281C145F00539A38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD560F3A281C145F00539A38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD560F3C281C145F00539A38 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FD560F3D281C145F00539A38 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FD560F3F281C145F00539A38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD560F40281C145F00539A38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD560F43281C146000539A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD560F45281C146100539A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD560F48281C146100539A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD560F4A281C146100539A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD560F4B281C146100539A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD560F4D281C146100539A38 /* rnPOcAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rnPOcAppClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +102,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-rnPocClip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD560F34281C145F00539A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +168,7 @@
 				13B07FAE1A68108700A75B9A /* rnPocClip */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* rnPocClipTests */,
+				FD560F38281C145F00539A38 /* rnPOcAppClip */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -133,6 +183,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* rnPocClip.app */,
 				00E356EE1AD99517003FC87E /* rnPocClipTests.xctest */,
+				FD560F37281C145F00539A38 /* rnPOcAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +197,25 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-rnPocClip-rnPocClipTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD560F38281C145F00539A38 /* rnPOcAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				FD560F39281C145F00539A38 /* AppDelegate.h */,
+				FD560F3A281C145F00539A38 /* AppDelegate.m */,
+				FD560F3C281C145F00539A38 /* SceneDelegate.h */,
+				FD560F3D281C145F00539A38 /* SceneDelegate.m */,
+				FD560F3F281C145F00539A38 /* ViewController.h */,
+				FD560F40281C145F00539A38 /* ViewController.m */,
+				FD560F42281C146000539A38 /* Main.storyboard */,
+				FD560F45281C146100539A38 /* Assets.xcassets */,
+				FD560F47281C146100539A38 /* LaunchScreen.storyboard */,
+				FD560F4A281C146100539A38 /* Info.plist */,
+				FD560F4B281C146100539A38 /* main.m */,
+				FD560F4D281C146100539A38 /* rnPOcAppClip.entitlements */,
+			);
+			path = rnPOcAppClip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,15 +254,34 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				FD560F51281C146100539A38 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FD560F4F281C146100539A38 /* PBXTargetDependency */,
 			);
 			name = rnPocClip;
 			productName = rnPocClip;
 			productReference = 13B07F961A680F5B00A75B9A /* rnPocClip.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FD560F36281C145F00539A38 /* rnPOcAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD560F54281C146100539A38 /* Build configuration list for PBXNativeTarget "rnPOcAppClip" */;
+			buildPhases = (
+				FD560F33281C145F00539A38 /* Sources */,
+				FD560F34281C145F00539A38 /* Frameworks */,
+				FD560F35281C145F00539A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rnPOcAppClip;
+			productName = rnPOcAppClip;
+			productReference = FD560F37281C145F00539A38 /* rnPOcAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +297,9 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					FD560F36281C145F00539A38 = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
@@ -226,6 +318,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* rnPocClip */,
 				00E356ED1AD99517003FC87E /* rnPocClipTests */,
+				FD560F36281C145F00539A38 /* rnPOcAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +337,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD560F35281C145F00539A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD560F49281C146100539A38 /* LaunchScreen.storyboard in Resources */,
+				FD560F46281C146100539A38 /* Assets.xcassets in Resources */,
+				FD560F44281C146000539A38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +518,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD560F33281C145F00539A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD560F41281C145F00539A38 /* ViewController.m in Sources */,
+				FD560F3B281C145F00539A38 /* AppDelegate.m in Sources */,
+				FD560F4C281C146100539A38 /* main.m in Sources */,
+				FD560F3E281C145F00539A38 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -423,7 +537,31 @@
 			target = 13B07F861A680F5B00A75B9A /* rnPocClip */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
+		FD560F4F281C146100539A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD560F36281C145F00539A38 /* rnPOcAppClip */;
+			targetProxy = FD560F4E281C146100539A38 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD560F42281C146000539A38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD560F43281C146000539A38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD560F47281C146100539A38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD560F48281C146100539A38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
@@ -662,6 +800,84 @@
 			};
 			name = Release;
 		};
+		FD560F52281C146100539A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = rnPOcAppClip/rnPOcAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rnPOcAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rnPocClip;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.rnPocClip.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD560F53281C146100539A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = rnPOcAppClip/rnPOcAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rnPOcAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = rnPocClip;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.rnPocClip.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,6 +904,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD560F54281C146100539A38 /* Build configuration list for PBXNativeTarget "rnPOcAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD560F52281C146100539A38 /* Debug */,
+				FD560F53281C146100539A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
